@@ -241,7 +241,7 @@ document.write(`<br>`);
 
 /* 5. Modificar mediante funciones las previsiones de Dental: aquellas que indican ser FONASA
   cambiarlas por ISAPRE y viceversa. Luego, imprimir este resultado junto con el rut asociado a
-  dicha consulta, separados por punto y coma.
+  dicha consulta, separados por punto y coma. 
   Ejemplo:
   FONASA;MARCELA RETAMAL
   FONASA;ANGEL MUÑOZ... */
