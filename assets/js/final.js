@@ -178,21 +178,11 @@ pacientes.forEach(function (param) {
 console.log("Ejercicio 1");
 console.log(Traumatologia);
 
-
-
-
-
-
 /* 2. Eliminar el primer y último elemento del arreglo de Radiología. */
 Radiologia.shift();
 Radiologia.pop();
 console.log("Ejercicio 2");
 console.log(Radiologia);
-
-
-
-
-
 
 /* 3. Imprimir en la página HTML, mediante document.write y/o la funciones que estime
   conveniente, la lista de consultas médicas de Dental. Sin embargo, debe hacerlo separando por
@@ -209,11 +199,6 @@ Radiologia.forEach(function (param) {
   );
 });
 document.write(`<br>`);
-
-
-
-
-
 
 /*  4. Imprimir un listado total de todos los pacientes que se atendieron en el centro médico. Para ésto,
   deberá unir todos los nombres de pacientes e imprimir uno por cada párrafo.
@@ -233,11 +218,6 @@ especialidades.forEach(function (param) {
   document.write(`<p>${param.PACIENTE}</p>`);
 });
 document.write(`<br>`);
-
-
-
-
-
 
 /* 5. Modificar mediante funciones las previsiones de Dental: aquellas que indican ser FONASA
   cambiarlas por ISAPRE y viceversa. Luego, imprimir este resultado junto con el rut asociado a
